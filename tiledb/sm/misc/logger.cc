@@ -30,15 +30,13 @@
  * This file implements class Logger.
  */
 
+#include "tiledb/sm/misc/logger.h"
+
 #ifdef _WIN32
 #include <spdlog/sinks/stdout_sinks.h>
 #else
 #include <spdlog/sinks/stdout_color_sinks.h>
 #endif
-
-#include "tiledb/sm/misc/logger.h"
-
-
 
 namespace tiledb {
 namespace sm {
