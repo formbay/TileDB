@@ -29,10 +29,10 @@
  *
  * This file implements class Logger.
  */
-
+#include <spdlog/sinks/stdout_sinks.h>
 #include "tiledb/sm/misc/logger.h"
 
-#include <spdlog/sinks/stdout_sinks.h>
+
 
 namespace tiledb {
 namespace sm {
