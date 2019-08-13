@@ -29,7 +29,12 @@
  *
  * This file implements class Logger.
  */
+
+#ifdef _WIN32
 #include <spdlog/sinks/stdout_sinks.h>
+#else
+#include <spdlog/sinks/stdout_color_sinks.h>
+
 #include "tiledb/sm/misc/logger.h"
 
 
