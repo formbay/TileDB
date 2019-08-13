@@ -34,6 +34,7 @@
 #include <spdlog/sinks/stdout_sinks.h>
 #else
 #include <spdlog/sinks/stdout_color_sinks.h>
+#endif
 
 #include "tiledb/sm/misc/logger.h"
 
