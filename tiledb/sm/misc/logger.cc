@@ -47,7 +47,7 @@ Logger::Logger() {
 #ifdef _WIN32
     logger_ = spdlog::stdout_logger_mt("tiledb");
 #else
-    logger_ = spdlog::stdout_color_mt("tiledb");
+    logger_ = spdlog::stdout_logger_mt("tiledb");
 #endif
   }
   // Set the default logging format
